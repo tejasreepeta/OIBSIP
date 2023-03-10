@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e9f6fc; /* Change to a more pleasant blue shade */
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+  width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Add border radius */
+  padding: 30px;
+  text-align: center;
+}
+
+
+h1 {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-size: 36px;
+  font-weight: bold;
+}
+
+.input-group {
+	margin: 20px 0;
+}
+
+label {
+	display: inline-block;
+	width: 200px;
+	text-align: left;
+	font-size: 18px;
+	color: #333;
+  font-weight: bold;
+}
+
+input[type="number"] {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	font-size: 18px;
+	color: #333;
+	width: 300px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-group {
+	margin-top: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2196f3; /* Change to a more pleasant blue shade */
+  color: #fff;
+  font-size: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Add a transition effect */
+  font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+  background-color: #005ea3; /* Change to a darker shade on hover */
+}
+
+button:active {
+  background-color: #0a6dbf; /* Change to a darker shade on click */
+}
+
+button:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
